@@ -1,33 +1,30 @@
 .footer__contacts--icon {
-    background: none repeat scroll 0 0 rgb(0,30,34);
-    border-radius: 100px;
-    display: inline-block;
-    height: 35px;
-    width: 35px;
-    text-align: center;
-    line-height: 35px;
-    margin: 0.3125em 0.3125em 0.3125em 0;
-    text-align: center;
+   background: none repeat scroll 0 0 rgb(0,30,34);
+   border-radius: 100px;
+   display: inline-block;
+   height: 35px;
+   width: 35px;
+   text-align: center;
+   line-height: 35px;
+   margin: 0.3125em 0.3125em 0.3125em 0;
+   text-align: center;
 }
-
 
 i, .icon {
-    font-family: 'mfg';
-    font-size: 1em;
-    font-style: normal;
-    font-weight: normal;
-    color: #e3e3e3;
+   font-family: 'mfg';
+   font-size: 1em;
+   font-style: normal;
+   font-weight: normal;
+   color: #e3e3e3;
 }
-
 
 .footer__flex--wrapper{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
+   display:flex;
+   flex-direction: row;
+   justify-content: flex-start;
 
 }
 
-
 .footer__contacts{
-  width: 25%;
+   width: 25%;
 }
