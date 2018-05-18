@@ -1,1 +1,21 @@
+.icon {
+    background: none repeat scroll 0 0 rgb(0,30,34);
+    border-radius: 100px;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0.3125em 0.3125em 0.3125em 0;
+    text-align: center;
+}
+
+
+i, .icon {
+    font-family: 'mfg';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    color: #e3e3e3;
+}
 
