@@ -1,4 +1,4 @@
-.icon {
+.footer__contacts--icon {
     background: none repeat scroll 0 0 rgb(0,30,34);
     border-radius: 100px;
     display: inline-block;
@@ -19,3 +19,15 @@ i, .icon {
     color: #e3e3e3;
 }
 
+
+.footer__flex--wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+
+.footer__contacts{
+  width: 25%;
+}
