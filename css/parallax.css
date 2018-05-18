@@ -1,0 +1,28 @@
+.home__parallax {
+   background-image: url("../images/hostelskeusluge.jpg");
+   background-position: center;
+   height: 100vh;
+   background-size: cover;
+}
+
+.home__flex-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 40vh;
+}
+
+.home__parallax--h1 {
+   font-size: 2em;
+   color: lightblue;
+   border: 2px solid red;
+}
+
+.home__btn {
+   width: 20%;
+   margin: 20px auto !important;
+   display: block;
+   border: 5px solid lightgreen;
+   text-align: center;
+}
