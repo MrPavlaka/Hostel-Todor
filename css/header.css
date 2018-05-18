@@ -1,0 +1,52 @@
+header {
+   background-color: lightgrey;
+}
+
+.header__logo {
+   display: flex;
+   justify-content: flex-start;
+   border: 3px solid red;
+}
+
+.header__logo p {
+   color: red;
+   font-size: 3em;
+}
+
+.header__flex--wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+#main__nav {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.nav__ul {
+   display: flex;
+   margin: auto 0;
+   justify-content: space-around;
+   border: 3px solid blue;
+}
+
+.nav__ul--li {
+   display: inline-block;
+   list-style: none;
+}
+
+.nav__li--a {
+   display: block;
+   text-decoration: none;
+   color: yellow;
+   padding: 10px 15px;
+   text-transform: capitalize;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+.nav__li--a:hover {
+   background-color: yellow;
+   color: red;
+   transition: 900ms ease-out;
+}
