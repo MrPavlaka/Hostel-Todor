@@ -16,8 +16,9 @@
 .home__parallax--h1 {
    font-size: 2em;
    font-weight: 700;
-   color: blue;
+   color: #fff;
    border: 2px solid red;
+   text-align: center;
 }
 
 .home__btn {
