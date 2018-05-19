@@ -1,5 +1,6 @@
 header {
-   background-color: lightgrey;
+   position: fixed;
+   width: 100%;
 }
 
 .header__logo {
@@ -49,4 +50,10 @@ header {
    background-color: yellow;
    color: red;
    transition: 900ms ease-out;
+}
+
+header.shrink {
+   position: fixed;
+   width: 100%;
+   background: lightgray;
 }
