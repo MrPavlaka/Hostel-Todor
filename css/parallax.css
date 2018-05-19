@@ -1,7 +1,7 @@
 .home__parallax {
-   background-image: url("../images/backgrounds/hostelskeusluge.jpg");
+   background-image: url("../images/backgrounds/NS.jpg");
    background-attachment: fixed;
-   height: 100vh;
+   height: 96vh;
    background-size: cover;
 }
 
@@ -15,7 +15,8 @@
 
 .home__parallax--h1 {
    font-size: 2em;
-   color: lightblue;
+   font-weight: 700;
+   color: blue;
    border: 2px solid red;
 }
 
