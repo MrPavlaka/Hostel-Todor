@@ -1,53 +1,5 @@
-.section__products--flex-wrapper {
-   display: flex;
-   justify-content: space-around;
-   text-align: center;
-}
-
-.section__products--box {
-   display: flex;
-}
-
-.products__box--image-wrapper {
-   display: flex;
-   width: 50px;
-   justify-content: space-around;
-}
-
-.products__box--image-parking {
-   background-image: url("../images/icons/parking.png");
-   background-size: cover;
-   display: block;
-   width: 30px;
-   height: 30px;
-   text-align: center;
-   margin: 10px 0;
-}
-
-.products__box--image-wifi {
-   background-image: url("../images/icons/wifi.png");
-   background-size: cover;
-   display: block;
-   width: 30px;
-   height: 30px;
-   text-align: center;
-   margin: 10px 0;
-}
-
-.products__box--image-breakfast {
-   background-image: url("../images/icons/cup-breakfast.png");
-   background-size: cover;
-   display: block;
-   width: 30px;
-   height: 30px;
-   text-align: center;
-   margin: 10px 0;
-}
-
-.products__box--image-wrapper:hover {
-   background-color: lightgrey;
-   border-radius: 15px;
-   transition: 300ms ease-out;
+.section__products {
+   height: 50vh;
 }
 
 .section__products--flex-wrapper {
@@ -100,4 +52,61 @@
    background-color: lightgrey;
    border-radius: 15px;
    transition: 300ms ease-out;
+}
+
+.section__products--flex-wrapper {
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.section__products--box {
+   display: flex;
+}
+
+.products__box--image-wrapper {
+   display: flex;
+   width: 50px;
+   justify-content: space-around;
+}
+
+.products__box--image-parking {
+   background-image: url("../images/icons/parking.png");
+   background-size: cover;
+   display: block;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   margin: 10px 0;
+}
+
+.products__box--image-wifi {
+   background-image: url("../images/icons/wifi.png");
+   background-size: cover;
+   display: block;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   margin: 10px 0;
+}
+
+.products__box--image-breakfast {
+   background-image: url("../images/icons/cup-breakfast.png");
+   background-size: cover;
+   display: block;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   margin: 10px 0;
+}
+
+.products__box--image-wrapper:hover {
+   background-color: lightgrey;
+   border-radius: 15px;
+   transition: 300ms ease-out;
+}
+
+.prostor {
+   height: 50vh;
+   background: none;
 }
