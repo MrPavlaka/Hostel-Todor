@@ -7,17 +7,18 @@ header {
 header.shrink {
    position: fixed;
    width: 100%;
-   background: black;
-   transition: 2000ms ease-out;
+   background: rgba(0, 0, 0, 0.6);
+   transition: 500ms ease-out;
 }
 
-.header__logo {
-   border: 3px solid red;
+ul.shrink {
+   font-size: 0.75em;
+   transition: 250ms ease-out;
 }
 
-.header__logo p {
-   color: red;
-   font-size: 3em;
+header img {
+   height: 3em;
+   margin-top: 10px;
 }
 
 .header__flex--wrapper {
@@ -28,13 +29,13 @@ header.shrink {
 #main__nav {
    display: flex;
    justify-content: flex-end;
+   padding: 15px 0;
 }
 
 .nav__ul {
    display: flex;
    margin: auto 0;
    justify-content: space-around;
-   border: 3px solid blue;
 }
 
 .nav__ul--li {
@@ -45,15 +46,22 @@ header.shrink {
 .nav__li--a {
    display: block;
    text-decoration: none;
-   color: yellow;
+   color: #fff;
    padding: 10px 15px;
    text-transform: capitalize;
    font-weight: bold;
-   border-radius: 5px;
+}
+
+.nav__li--active {
+   color: #f79421;
 }
 
 .nav__li--a:hover {
-   background-color: yellow;
-   color: red;
-   transition: 900ms ease-out;
+   color: #f79421;
+   transition: 900ms ease-in;
+}
+
+.nav__li--active:hover {
+   color: #fff;
+   transition: 200ms ease-in;
 }
