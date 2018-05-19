@@ -3,9 +3,14 @@ header {
    width: 100%;
 }
 
+header.shrink {
+   position: fixed;
+   width: 100%;
+   background: black;
+   transition: 2000ms ease-out;
+}
+
 .header__logo {
-   display: flex;
-   justify-content: flex-start;
    border: 3px solid red;
 }
 
@@ -50,10 +55,4 @@ header {
    background-color: yellow;
    color: red;
    transition: 900ms ease-out;
-}
-
-header.shrink {
-   position: fixed;
-   width: 100%;
-   background: lightgray;
 }
