@@ -1,8 +1,11 @@
 .home__parallax {
    background-image: url("../images/backgrounds/NS.jpg");
    background-attachment: fixed;
-   height: 100vh;
    background-size: cover;
+}
+
+.home__height {
+   height: 100vh;
 }
 
 .home__flex-wrapper {
