@@ -60,10 +60,12 @@ header img {
 
 .nav__li--a:hover {
    color: #f79421;
-   transition: 900ms ease-in;
+   transition: 200ms ease-in;
+   text-shadow: 0 0 20px #f79421,0 0 30px #f79421;
 }
 
 .nav__li--active:hover {
    color: #fff;
    transition: 200ms ease-in;
+   text-shadow: 0 0 20px #fff,0 0 30px #fff;
 }
