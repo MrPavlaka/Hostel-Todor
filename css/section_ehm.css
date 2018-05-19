@@ -1,0 +1,16 @@
+.height__2 {
+   height: 50vh;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-around;
+}
+
+.box {
+   width: 15%;
+   height: 250px;
+   background-color: #fff;
+   border-radius: 25px;
+   margin-top: 50px;
+}
