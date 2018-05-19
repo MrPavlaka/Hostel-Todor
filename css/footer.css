@@ -4,7 +4,6 @@
    display: inline-block;
    height: 35px;
    width: 35px;
-   text-align: center;
    line-height: 35px;
    margin: 0.3125em 0.3125em 0.3125em 0;
    text-align: center;
@@ -27,4 +26,14 @@ i, .icon {
 
 .footer__contacts{
    width: 25%;
+}
+
+
+.footer__slide{
+  position: relative;
+  height: 400px;
+  width: 80%;
+  max-width: 600px;
+  margin:0 auto;
+
 }
