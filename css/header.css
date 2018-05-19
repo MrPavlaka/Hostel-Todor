@@ -2,6 +2,7 @@ header {
    position: fixed;
    width: 100%;
    z-index: 1003;
+   transition: 500ms ease-out;
 }
 
 header.shrink {
@@ -36,6 +37,7 @@ header img {
    display: flex;
    margin: auto 0;
    justify-content: space-around;
+   transition: 250ms ease-out;
 }
 
 .nav__ul--li {
