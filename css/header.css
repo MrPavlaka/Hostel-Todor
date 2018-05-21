@@ -12,7 +12,7 @@ header.shrink {
    transition: 500ms ease-out;
 }
 
-ul.shrink {
+.nav__ul.shrink {
    font-size: 0.75em;
    transition: 250ms ease-out;
 }
