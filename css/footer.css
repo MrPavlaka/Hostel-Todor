@@ -1,3 +1,7 @@
+footer {
+   padding-top: 50px;
+}
+
 .footer__contacts--icon {
    background: none repeat scroll 0 0 rgb(0,30,34);
    border-radius: 100px;
@@ -28,32 +32,10 @@ i, .icon {
    width: 25%;
 }
 
-
 .footer__slide{
   position: relative;
   height: 400px;
   width: 80%;
   max-width: 600px;
   margin:0 auto;
-}
-
-.footer__section1{
-  height: 90vh;
-}
-
-
-.footer__section1--okvir{
-  margin: 20em 0 0 30em;
-  height: 30em;
-  width:70em;
-  border: 6px solid #f79421;
-}
-
-.proba{
-  margin: 2em 0 20em 70em;
-
-}
-
-.proba.gore{
-  font-size: 5em;
 }
